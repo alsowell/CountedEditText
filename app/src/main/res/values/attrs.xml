@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CountedEditText">
+        <attr name="maxNum" format="integer"/>
+        <attr name="mode" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="whitSprit" value="1"/>
+        </attr>
+        <attr name="countColor" format="color"></attr>
+        <attr name="countSize" format="dimension"/>
+        <attr name="overCountColor" format="color"/>
+        <attr name="paddingToRight" format="dimension"/>
+        <attr name="paddingToBottom" format="dimension"/>
+    </declare-styleable>
+
+</resources>

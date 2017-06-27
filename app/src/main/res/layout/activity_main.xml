@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.countededittext.MainActivity">
+
+    <com.example.administrator.countededittext.CountedEditText
+        android:id="@+id/et_counted"
+        android:gravity="left|top"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Hello World!"
+        app:maxNum="30"
+        app:countColor="@color/colorPrimary"
+        app:mode="whitSprit"
+        app:overCountColor="@android:color/holo_red_dark"
+        app:countSize="30sp"
+        android:textSize="30sp"
+        app:paddingToBottom="5dp"
+        app:paddingToRight="5dp"
+  />
+    <Button
+        android:id="@+id/btn"
+        android:text="改变计数模式"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
